@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+    padding-top: 1rem;
+    color: darkslategrey;
+}
+
+.tours{
+    /* border: 2px solid green; */
+    display: flex;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+.container{
+    width: 420px;
+    padding: 10px 0;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    /* background-color: rgba(211, 202, 202, 0.466); */
+    margin: 8px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 6px rgba(128, 128, 128, 0.61);
+
+}
+
+.image{
+    max-width: 400px;
+    border-radius: 6px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    /* padding-top: 10px; */
+}
+
+.tour-details{
+    padding: 9px 15px;
+}
+
+.price{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: rgb(105, 185, 105);
+}
+
+.city-name{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: darkslategrey;
+}
+
+.tour-data{
+    padding: 0.7rem 0 10px 0;
+    color: rgb(87, 86, 86);
+}
+
+.read-more{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    display: block;
+    width: 100%;
+    margin: 7px 0;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(35, 58, 58);
+
+}
+
+
+
+
+.refresh{
+    background-color: darkslategrey;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+}
+
+.refresh-btn{
+    padding: 0.5rem 1.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    color: darkslategrey;
+    cursor: pointer;
+}
